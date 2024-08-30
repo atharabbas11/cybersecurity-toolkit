@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+body, h1, h2, form, input, select, button, label, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #000;
+    color: #0f0;
+}
+
+/* Center the content */
+body, h1, h2, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Style headers */
+h1, h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style forms */
+form {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Style form labels and inputs */
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Style buttons */
+button {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #080;
+}
+
+/* Style result div */
+div {
+    margin-top: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+/* Style select dropdown */
+select {
+    padding: 5px;
+}
+
+/* Style preformatted text */
+pre {
+    background-color: #080;
+    padding: 10px;
+    border-radius: 4px;
+}
