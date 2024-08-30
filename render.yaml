@@ -3,7 +3,7 @@ services:
     name: flask-app
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn --bind 0.0.0.0:10000 cybersecurity-toolkit:app"
+    startCommand: "gunicorn --bind 0.0.0.0:10000 cybersecurity_toolkit:app"
     routes:
       - type: root
         path: /
